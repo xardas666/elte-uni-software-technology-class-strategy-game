@@ -1,0 +1,49 @@
+A játék leírása:
+Adott egy terület, ahol különböző erőforrás lelőhelyek, épı́tmények, illetve akadályok
+vannak. A játékosok azonos feltételekkel indulnak. Létezik aranybánya, erdő,
+farm mezők, valamint bányász, favágó és farmer karakterek. Az nyer, aki el-
+pusztı́tja a vetélytárs karaktereit és épı́tményeit, vagy ha a vetélytárs számára
+lehetetlenné teszi támadó karakterek létrehozását (a szükséges erőforrást vagy
+épı́tményt nem tudja előteremteni hozzá). Minden karakternek és épitménynek
+vagy egy életereje. A karakterek támadási képessége eltérő. A ka-
+tona karaktereknek nagyobb az ereük, mint a munkásoké. Más épületben
+lehet létrehozni őket, mint a munkásokat. A játék körökre osztott. A játék
+grafikus felületű.
+
+
+Épületek
+A nyersanyag lelőhelyek működéséhez a munkásoknak ott kell állomásozni. A
+munkások tudnak épületet épı́teni nyersanyagok függvényében. A lelőhelyek
+életereje azonos, és kevesebb, mint a támadó karaktereket létrehozó
+épületeké. Munkásokat létrehozni a fő épületben lehet alacsony költségen. Min-
+den más karakter költsége az erejétől függ. Az erőforrások termelési ideje 
+különböző attól függően, mennyire ritka erőorrásókról beszélünk. (A termelési
+idő körökben értendő). Ugyanez igaz a karakterekre is.
+
+Akadályok
+2-féle tetszőleges akadály van, ahova maximum csak sárkánnyal léphetünk.
+
+Új Játék indítása:
+-Főképernyőn megjelenő gomok közül válaszd a "New Game" gombot.
+-Játék közben Game Menu, "New Game" menu választásával.
+
+Kilépés:
+-Ablak bezárásával.
+-Főképernyőn "Exit" gomb megnyomásával.
+-Játék közben Game Menu, "Exit" menu választásával.
+
+Játékmenet:
+A játék indítását követően betöltődik a pálya.
+A játékmenet körökre osztott a játékosok felváltva végezhetnek mozgás és akció lehetőségek közül.
+Minden karakter maximális lépést végezhet, közben dolgozhat, támadhat, és építhet.
+Az építésez a munkás karakternek a felépítmény mellett kell állomásozni. Az épületek  több körön keresztül épülnek. Az építés gyorsasága függ a mellette állomásozó munkások számától.
+Munkást csak a főépületben lehet létrehozi.
+
+Kezelés: 
+Az aktuális játékos a karaktereire, épületeire egér jobb gombjával kattintva megjelennek a lehetőségek popup ablakban. Lépés és építés akciók választását követően ki lell jelölni egér bal gombjával a célállomás/építés helyét. Egy adott karakter tulajonságait az egér középső gombjának megnyomásával jeleníthetjük meg.
+Fontos, hogy egyes épületek csak a megfelelő nyersanyagok mellé építhetőek.
+Támadni szintén a fenti popup ablak megfelelő "ATTACK" akciójának meghívásával lehet. Támadás esetén közvetlenül a megtámadott karakter mellett kell állomásozni.
+1 körön belül egy játékosnak mozogni és egy akció végzése lehetséges.
+Az a játékos győz aki elpusztítja az ellenség összes kerekterét.
+
+
